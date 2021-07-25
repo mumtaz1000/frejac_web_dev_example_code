@@ -1,0 +1,29 @@
+body {
+  background-color: #f5f3e4;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: "tradegothiclt-bold", sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+  color: black;
+  text-transform: uppercase;
+}
+section {
+  height: 100%;
+  width: 100%;
+}
+span {
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+.text {
+  width: 100%;
+  float: right;
+}
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}

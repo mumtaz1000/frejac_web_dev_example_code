@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+.image-section {
+  height: 100px;
+  width: 80%;
+  display: inline-block;
+}
+
+.image-subsection1 {
+  float: left;
+  border-radius: 50%;
+}
+
+.image-subsection2 {
+  float: right;
+  border-radius: 100%;
+}
+
+.display-info {
+  height: 400px;
+  width: 80%;
+  background-size: cover;
+  display: inline-block;
+}

@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #faeadb;
+}
+.hero-section-grid-container {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  grid-gap: 4rem;
+}
+
+.hero-section-grid-container > div {
+  font-family: "Dancing Script", cursive;
+  padding: 20px;
+  font-size: 30px;
+}
+.hero-section-text {
+  margin-left: 1.5rem;
+}
+.hero-section-text-heading h1 {
+  font-family: "Cookie", cursive;
+  margin-bottom: -2.5rem;
+  font-size: 6.5rem;
+  font-style: italic;
+}
+.hero-section-text-para {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  margin-bottom: -0.5rem;
+  font-size: 3.5rem;
+}
+.hero-section-text-end {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+h6 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.hero-section-text-end h6 {
+  margin-bottom: -1.9rem;
+}
+.hero-section-text-end-line:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #392518;
+  margin: auto -10rem 0.5rem 0.5rem;
+}
+.hero-section-text {
+  align-content: center;
+  padding: 20px 20px 20px 0;
+  color: #392518;
+}
+.hero-section-text .section-text {
+  align-items: left;
+  margin-right: auto;
+}
+
+.mytextdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mytexttitle {
+  flex-grow: 0;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #392518;
+}
+
+.hero-section-image {
+  background-color: grey;
+  background-image: url(./sisterhood.png);
+  background-size: cover;
+  height: 85vh;
+  z-index: -1;
+}
